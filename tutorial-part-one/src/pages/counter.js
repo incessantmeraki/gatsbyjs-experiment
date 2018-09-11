@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import Link from 'gatbsy-link'
 
 class Counter extends React.Component {
   constructor() {
@@ -33,6 +34,8 @@ class Counter extends React.Component {
 
           minus
         </button>
+      <br/>
+      <Link to="/"> Home </Link>
       </div>
     )
   }
