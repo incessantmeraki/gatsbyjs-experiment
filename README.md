@@ -8,11 +8,18 @@
 - gatsby build to produce the final thing
 - gatsby develop to run the thing in development mode
 
-### Part one
+### Part two
 
 - Using style={{property: value}} inline
 - Using gatsby-plugin-typography to define base typography of site
-- Creating gatsby-config.js
+- applying different theme for typography (/src/utils/typography.js)
+- Creating gatsby-config.js (define plugins:[] to load the downloaded plugin)
 - Use of CSS in JS (glamor, styled components)
 - use of CSS module (file.module.css) which is by default available in gatsby
+
+### Part three
+
+- Applying layout which is common to all pages within gatsby
+- Resides in /src/layouts/index.js
+- Simple component which accepts props.children and uses it as function call({children()})
 
