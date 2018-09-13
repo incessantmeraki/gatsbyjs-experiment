@@ -28,3 +28,8 @@
 - Using graphql query to extract data from config file
 - export const query = graphql`query find { find { site { siteMetadata { title } }  } }
 - using queried data which is available in props.data.site.siteMetadata.title
+
+### Part five
+
+- Use of source plugin to get data into the system
+- get information about filesystem using gatsby-source-filesystem
