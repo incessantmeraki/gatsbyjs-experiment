@@ -23,3 +23,8 @@
 - Resides in /src/layouts/index.js
 - Simple component which accepts props.children and uses it as function call({children()})
 
+### Part four
+
+- Using graphql query to extract data from config file
+- export const query = graphql`query find { find { site { siteMetadata { title } }  } }
+- using queried data which is available in props.data.site.siteMetadata.title
