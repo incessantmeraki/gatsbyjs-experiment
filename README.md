@@ -39,3 +39,10 @@
 - Use of transformer plugin to transform the data received from source plugin
 - gatsby-transformer-remark 
 
+### Part Seven
+
+- Generate pages on the plug
+- Use of oncreateNode and createPages API from gatbsy in gatsby-node.js to 
+- Filter out nodes which are just of type markdown, create their corresponding slug, and make node new node field
+- to create page use createPage API to providing the path to the template file (src/templates/blog-post.js)
+- above tempalte is provided with slug context which it can use to query for corresponding html
