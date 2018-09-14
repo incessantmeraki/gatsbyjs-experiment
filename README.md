@@ -33,3 +33,9 @@
 
 - Use of source plugin to get data into the system
 - get information about filesystem using gatsby-source-filesystem
+
+### Part six
+
+- Use of transformer plugin to transform the data received from source plugin
+- gatsby-transformer-remark 
+
